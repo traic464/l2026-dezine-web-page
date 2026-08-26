@@ -78,3 +78,11 @@ body {
   border-color: rgba(217, 255, 92, 0.35);
   background: rgba(245, 243, 238, 0.045);
 }
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
