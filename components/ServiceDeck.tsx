@@ -2,10 +2,12 @@
 
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type Service = {
   no: string;
   title: string;
+  slug: string;
   desc: string;
   detail: string;
   tint: string;
@@ -14,59 +16,74 @@ type Service = {
 const services: Service[] = [
   {
     no: "01",
-    title: "Brand Identity",
-    desc: "Logos, visual identity, and a communication style that's unmistakably you.",
+    title: "Creative Content",
+    slug: "creative-content",
+    desc: "Social-first video and motion content built for how people actually scroll and watch today.",
     detail:
-      "We start by digging into what actually makes your business different, then build the whole kit around it — logo, colour, type, and tone of voice. You walk away with guidelines your team can genuinely follow, not a PDF that gets forgotten.",
+      "Motion graphics, 3D animation, 2D+3D hybrid motion, video editing, and event video — all designed for the platforms your audience lives on, from Instagram Reels to YouTube pre-roll to in-venue event screens.",
     tint: "#d9ff5c",
   },
   {
     no: "02",
-    title: "Web & UI/UX Design",
-    desc: "Websites and apps that are easy to use, good looking, and built around real people.",
+    title: "Online & OOH Advertising",
+    slug: "online-ooh-advertising",
+    desc: "One creative idea, executed everywhere your audience sees it — digital and physical.",
     detail:
-      "Research, wireframes, prototypes, and polished UI — the full path from a rough idea to something your developers can build. We test with real users along the way so the decisions are grounded in evidence, not opinion.",
+      "Digital ad creative, OOH campaign design, cross-channel adaptation, and campaign-level creative direction. Your message stays consistent no matter where it lands — on a phone, a billboard, or a screen in a mall.",
     tint: "#8b7bff",
   },
   {
     no: "03",
-    title: "Digital Marketing",
-    desc: "Content strategy and digital campaigns that help your brand grow, steadily.",
+    title: "Arabic Localization",
+    slug: "arabic-localization",
+    desc: "Go beyond translation — culturally adapt your brand for Arabic-speaking audiences.",
     detail:
-      "We plan the channels, the calendar, and the creative, then measure what's actually moving the needle. No vanity metrics — just a steady loop of making, learning, and making it better.",
+      "Content transcreation, dialect-aware localization, cultural context review, and Arabic-first creative production. Native Arabic-speaking specialists shape your content so it lands the way it's meant to, in every dialect and market.",
     tint: "#6cd4ff",
   },
   {
     no: "04",
-    title: "Motion & Content",
-    desc: "Video, motion graphics, and social content that tells your story and gets noticed.",
+    title: "Ads Optimization",
+    slug: "ads-optimization",
+    desc: "Turn ad spend into results — tracked, tested, and refined based on real performance data.",
     detail:
-      "From short-form social cuts to full brand films and animated explainers. We handle concept, storyboard, production, and post, so the whole thing stays on-brand from first frame to last.",
+      "Performance tracking, A/B and multivariate testing, creative refresh cycles, and budget-efficiency reporting. Every piece of content is treated as a living asset, continuously optimized to earn its place in the budget.",
     tint: "#ff9d6c",
   },
   {
     no: "05",
-    title: "Packaging Design",
-    desc: "Packaging that stands out on the shelf and speaks to what your brand's really about.",
+    title: "Creative + Performance",
+    slug: "creative-performance",
+    desc: "Where creative ideas and business goals meet — every concept built to move a metric.",
     detail:
-      "Structure, artwork, and print-ready files, designed with the shelf in mind. We think about how it photographs, how it opens, and how it holds up next to the competition.",
+      "Goal-first creative strategy, integrated planning, feedback-driven iteration, and cross-functional campaign management. One team accountable for both the idea and the result — no disconnect between creative and performance.",
     tint: "#6cffb0",
   },
   {
     no: "06",
-    title: "Art Direction",
-    desc: "Art direction and photography that keep every campaign feeling consistently you.",
+    title: "Website Design & Dev",
+    slug: "website-design",
+    desc: "Brand websites and landing pages built with the same creative standard as your content.",
     detail:
-      "Shoot direction, casting, styling, and a visual system that holds together across every channel. One coherent look, whether it lands on a billboard or a phone screen.",
+      "Full website design & development, landing page design, Arabic-ready bilingual builds, and ongoing website support. Your website carries the same creative quality, cultural localization, and performance thinking as everything else we produce.",
     tint: "#ff6ca0",
+  },
+  {
+    no: "07",
+    title: "Static Post Content",
+    slug: "static-post-content",
+    desc: "On-brand static posts designed for engagement, brand consistency, and scroll-stopping impact.",
+    detail:
+      "Social feed design, campaign-based static content, templated content systems, and Arabic bilingual static design. Every post is designed with feed behavior in mind — contrast, hierarchy, and message clarity that work in a split second.",
+    tint: "#ffc46c",
   },
 ];
 
-const CARD_W = 250;
+const CARD_W = 230;
 const CARD_H = 340;
 const EXP_W = 580;
 const EXP_H = 400;
-const SPREAD = 178;
+const SPREAD = 158;
 const DESIGN_W = 1200;
 const DECK_H = 500;
 const TOP = 60;
@@ -261,15 +278,23 @@ export default function ServiceDeck() {
 
                     <div className="mt-auto pt-6">
                       {isActive ? (
-                        <a
-                          href="#contact"
-                          onClick={() => setActive(null)}
-                          className="relative z-10 inline-flex items-center gap-2 rounded-full px-5 py-2.5 font-body text-sm font-medium text-ink transition-transform hover:-translate-y-0.5"
-                          style={{ backgroundColor: service.tint }}
-                        >
-                          Start a project
-                          <span aria-hidden>→</span>
-                        </a>
+                        <div className="relative z-10 flex flex-wrap items-center gap-3">
+                          <Link
+                            href={`/services/${service.slug}`}
+                            className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 font-body text-sm font-medium text-ink transition-transform hover:-translate-y-0.5"
+                            style={{ backgroundColor: service.tint }}
+                          >
+                            View details
+                            <span aria-hidden>→</span>
+                          </Link>
+                          <a
+                            href="#contact"
+                            onClick={() => setActive(null)}
+                            className="inline-flex items-center gap-2 rounded-full border border-line px-5 py-2.5 font-body text-sm font-medium text-paper transition-colors hover:bg-white/5"
+                          >
+                            Start a project
+                          </a>
+                        </div>
                       ) : (
                         <span
                           className="font-body text-xs transition-opacity"
@@ -327,14 +352,25 @@ export default function ServiceDeck() {
                 {service.desc}
               </p>
               {isActive && (
-                <motion.p
+                <motion.div
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: "auto" }}
                   transition={{ duration: 0.35 }}
-                  className="mt-4 overflow-hidden font-body text-sm leading-relaxed text-paper/70"
+                  className="mt-4 overflow-hidden"
                 >
-                  {service.detail}
-                </motion.p>
+                  <p className="font-body text-sm leading-relaxed text-paper/70">
+                    {service.detail}
+                  </p>
+                  <Link
+                    href={`/services/${service.slug}`}
+                    className="mt-4 inline-flex items-center gap-2 rounded-full px-5 py-2.5 font-body text-sm font-medium text-ink transition-transform hover:-translate-y-0.5"
+                    style={{ backgroundColor: service.tint }}
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    View details
+                    <span aria-hidden>→</span>
+                  </Link>
+                </motion.div>
               )}
               <span
                 className="mt-5 inline-block font-body text-xs"

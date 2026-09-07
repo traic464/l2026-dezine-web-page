@@ -141,7 +141,7 @@ export default function Work() {
               href="#contact"
               className="inline-flex items-center gap-2 rounded-full border border-line px-5 py-2.5 font-body text-sm text-muted transition-colors hover:border-accent hover:text-paper"
             >
-              Want something like this? Let&apos;s chat →
+              Ready to turn your brand story into content that stops the scroll? →
             </a>
           </div>
         </Reveal>

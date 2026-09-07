@@ -97,14 +97,14 @@ export default function Contact() {
         <Reveal>
           <span className="font-body text-sm text-accent">Get in touch</span>
           <h2 className="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
-            Tell us about
+            Ready to work
             <br />
-            your project 👀
+            with us? 👀
           </h2>
           <p className="mt-6 max-w-md font-body text-base leading-relaxed text-muted">
-            Big or small, rough or fully mapped out — we&apos;d love to hear it.
-            Fill in the form and we&apos;ll get back to you within a couple of
-            working days.
+            Ready to work with a studio that stays after launch day? Contact
+            De Zine Studio today to talk about your project — we&apos;ll get
+            back to you within a couple of working days.
           </p>
 
           <div className="mt-10 flex flex-col gap-3 font-body text-sm">

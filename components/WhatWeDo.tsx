@@ -11,40 +11,46 @@ type Item = {
 
 const items: Item[] = [
   {
-    label: "Brand Identity",
-    glyph: "✳",
+    label: "Creative Content",
+    glyph: "▶",
     className: "bg-accent text-ink",
     rot: -4,
   },
   {
-    label: "Web & UI/UX",
-    glyph: "◍",
+    label: "Online & OOH Advertising",
+    glyph: "◆",
     className: "border border-accent2/60 bg-accent2/20 text-paper",
     rot: 3,
   },
   {
-    label: "Digital Marketing",
-    glyph: "◆",
+    label: "Arabic Localization",
+    glyph: "✳",
     className: "bg-paper text-ink",
     rot: -2,
   },
   {
-    label: "Motion & Content",
-    glyph: "▶",
+    label: "Ads Optimization",
+    glyph: "◍",
     className: "border border-line bg-white/5 text-paper",
     rot: 5,
   },
   {
-    label: "Packaging Design",
-    glyph: "◗",
+    label: "Creative + Performance",
+    glyph: "✦",
     className: "bg-accent2/80 text-paper",
     rot: -5,
   },
   {
-    label: "Art Direction",
-    glyph: "✦",
+    label: "Website Design & Dev",
+    glyph: "◗",
     className: "border-2 border-accent text-accent",
     rot: 2,
+  },
+  {
+    label: "Static Post Content",
+    glyph: "◆",
+    className: "bg-accent/20 border border-accent/50 text-accent",
+    rot: -3,
   },
 ];
 
@@ -105,9 +111,9 @@ export default function WhatWeDo() {
           Our Services
         </h2>
         <p className="mt-6 max-w-md font-body text-base leading-relaxed text-muted md:text-lg">
-          We design digital products around real customer insight and solid
-          UX/UI practice — helping you take an app or a website from a rough
-          idea all the way to launch.
+          From creative content and advertising to performance optimization
+          and Arabic localization — everything your brand needs under one roof,
+          built to perform, not just look good.
         </p>
       </div>
 

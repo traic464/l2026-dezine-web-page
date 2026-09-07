@@ -17,14 +17,14 @@ const sarabun = Sarabun({
 });
 
 export const metadata: Metadata = {
-  title: "De Zine — Creative Design Studio",
+  title: "De Zine Studio — Creative Content, Advertising & Performance",
   description:
-    "De Zine is a creative design studio helping brands and businesses build identities, experiences, and digital products that stand out and stick around.",
-  keywords: ["De Zine", "Design Studio", "Branding", "Web Design", "UI/UX", "Creative Studio Bangkok"],
+    "De Zine Studio is built for brands and marketing teams looking for a creative partner who takes real ownership of results. Creative content, online & OOH advertising, ads optimization, website design, and Arabic localization.",
+  keywords: ["De Zine Studio", "Creative Content", "Motion Graphics", "3D Animation", "OOH Advertising", "Ads Optimization", "Arabic Localization", "Website Design", "Static Post Content", "MENA"],
   openGraph: {
-    title: "De Zine — Creative Design Studio",
+    title: "De Zine Studio — Creative Content, Advertising & Performance",
     description:
-      "We design brands people actually remember — from identity, to websites, to digital campaigns.",
+      "A creative partner who takes real ownership of results — creative content, advertising, ads optimization, and more.",
     type: "website",
   },
 };
