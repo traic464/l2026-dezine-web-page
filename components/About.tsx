@@ -14,20 +14,20 @@ export default function About() {
         <Reveal>
           <span className="font-body text-sm text-accent">About De Zine</span>
           <h2 className="mt-3 max-w-xl font-display text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
-            Good design should look great and actually work
+            A creative partner who stays after launch day
           </h2>
           <p className="mt-6 max-w-lg font-body text-base leading-relaxed text-muted">
-            We&apos;re a team of designers, strategists, and storytellers who believe
-            great design isn&apos;t just about looking good — it&apos;s about solving real
-            problems and creating results businesses can actually feel. Over the years
-            we&apos;ve partnered with brands from scrappy startups to household names,
-            helping them build identities that grow right alongside them.
+            De Zine Studio is built for brands and marketing teams looking for a creative
+            partner who takes real ownership of results — not just a studio that delivers
+            beautiful work and walks away. Whether you&apos;re a growing brand, a business
+            that needs measurable campaigns, or an organization looking for one partner to
+            handle both creativity and performance, we&apos;re built for you.
           </p>
           <a
             href="#contact"
             className="mt-8 inline-flex items-center gap-2 font-body text-sm font-medium text-paper underline decoration-accent decoration-2 underline-offset-4"
           >
-            Get to know the team →
+            Start your project →
           </a>
         </Reveal>
 

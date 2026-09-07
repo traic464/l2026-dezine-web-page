@@ -3,12 +3,13 @@
 import { motion } from "framer-motion";
 
 const tickerItems = [
-  "Brand Identity",
-  "Web & UI/UX",
-  "Digital Marketing",
-  "Motion & Content",
-  "Packaging Design",
-  "Art Direction",
+  "Creative Content",
+  "Online & OOH Advertising",
+  "Arabic Localization",
+  "Ads Optimization",
+  "Creative + Performance",
+  "Website Design & Dev",
+  "Static Post Content",
 ];
 
 export default function Hero() {
@@ -35,9 +36,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           className="font-display text-[13vw] leading-[0.98] font-semibold tracking-tight md:text-[6.4vw]"
         >
-          We design <span className="text-accent">brands</span>
+          Creative that <span className="text-accent">performs</span>
           <br />
-          people <span className="text-outline">remember</span> 👋
+          not just <span className="text-outline">looks good</span> 👋
         </motion.h1>
 
         <motion.p
@@ -46,9 +47,9 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="max-w-xl font-body text-base text-muted md:text-lg"
         >
-          De Zine is a creative design studio that helps brands and businesses build
-          identities, experiences, and digital products that stand out — from the first
-          idea all the way to something real.
+          De Zine Studio is built for brands and marketing teams looking for a creative
+          partner who takes real ownership of results — not just a studio that delivers
+          beautiful work and walks away.
         </motion.p>
 
         <motion.div

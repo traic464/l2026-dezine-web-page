@@ -22,8 +22,8 @@ export default function Footer() {
               De<span className="text-accent">.</span>Zine
             </span>
             <p className="mt-4 max-w-xs font-body text-sm leading-relaxed text-muted">
-              A creative design studio helping brands and businesses build identities,
-              experiences, and digital products that stand out and stick.
+              A creative partner for brands and marketing teams — taking real ownership
+              of results, from creative content to performance optimization.
             </p>
           </div>
 
