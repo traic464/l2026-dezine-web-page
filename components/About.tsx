@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 const stats = [
   { value: "8+", label: "Years in business" },
   { value: "120+", label: "Projects delivered" },
-  { value: "60+", label: "Clients who trust us" },
+  { value: "50+", label: "Clients who trust us" },
   { value: "15+", label: "Designers on the team" },
 ];
 
@@ -12,12 +12,12 @@ export default function About() {
     <section id="about" className="border-t border-line py-24 md:py-32">
       <div className="container-x grid grid-cols-1 gap-16 lg:grid-cols-[1fr_0.9fr]">
         <Reveal>
-          <span className="font-body text-sm text-accent">About De Zine</span>
+          <span className="font-body text-sm text-accent">About DeZine</span>
           <h2 className="mt-3 max-w-xl font-display text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
             A creative partner who stays after launch day
           </h2>
           <p className="mt-6 max-w-lg font-body text-base leading-relaxed text-muted">
-            De Zine Studio is built for brands and marketing teams looking for a creative
+            DeZine Studio is built for brands and marketing teams looking for a creative
             partner who takes real ownership of results — not just a studio that delivers
             beautiful work and walks away. Whether you&apos;re a growing brand, a business
             that needs measurable campaigns, or an organization looking for one partner to

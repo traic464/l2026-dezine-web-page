@@ -27,8 +27,8 @@ export default function Navbar() {
       }`}
     >
       <nav className="container-x flex h-[76px] items-center justify-between">
-        <a href="#top" className="font-display text-xl font-bold tracking-tight">
-          De<span className="text-accent">.</span>Zine
+        <a href="#top">
+          <img src="/logo/DE_ZINE_LOGO.png" alt="DeZine Studio" className="h-7" />
         </a>
 
         <ul className="hidden md:flex items-center gap-9 font-body text-sm text-muted">
