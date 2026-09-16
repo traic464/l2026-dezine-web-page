@@ -18,9 +18,7 @@ export default function Footer() {
       <div className="container-x">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-[1.3fr_1fr_1fr_1fr]">
           <div>
-            <span className="font-display text-2xl font-bold tracking-tight">
-              De<span className="text-accent">.</span>Zine
-            </span>
+            <img src="/logo/DE_ZINE_LOGO.png" alt="DeZine Studio" className="h-7" />
             <p className="mt-4 max-w-xs font-body text-sm leading-relaxed text-muted">
               A creative partner for brands and marketing teams — taking real ownership
               of results, from creative content to performance optimization.
@@ -75,8 +73,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-line pt-8 font-body text-xs text-muted md:flex-row md:items-center">
-          <span>© {new Date().getFullYear()} De Zine Studio. All rights reserved.</span>
-          <span>Made with care, in Bangkok 🇹🇭</span>
+          <span>© {new Date().getFullYear()} DeZine Studio. All rights reserved.</span>
         </div>
       </div>
     </footer>

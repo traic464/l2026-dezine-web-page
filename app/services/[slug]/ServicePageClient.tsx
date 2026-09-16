@@ -25,9 +25,9 @@ export default function ServicePageClient({
         <nav className="container-x flex h-[76px] items-center justify-between">
           <Link
             href="/#services"
-            className="font-display text-xl font-bold tracking-tight"
+            className="block"
           >
-            De<span className="text-accent">.</span>Zine
+            <img src="/logo/DE_ZINE_LOGO.png" alt="DeZine Studio" className="h-6" />
           </Link>
           <Link
             href="/#services"
@@ -304,7 +304,7 @@ export default function ServicePageClient({
       <footer className="border-t border-line py-10">
         <div className="container-x flex flex-col items-center justify-between gap-4 font-body text-xs text-muted md:flex-row">
           <span>
-            © {new Date().getFullYear()} De Zine Studio. All rights reserved.
+            © {new Date().getFullYear()} DeZine Studio. All rights reserved.
           </span>
           <Link
             href="/#top"

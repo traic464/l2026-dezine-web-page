@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 const testimonials = [
   {
     quote:
-      "De Zine helped our brand feel so much more professional. The team really got our business, and delivered exactly what we hoped for, every single time.",
+      "DeZine helped our brand feel so much more professional. The team really got our business, and delivered exactly what we hoped for, every single time.",
     name: "Paweena Srisuk",
     role: "Founder, Nimbus Coffee",
     initials: "PS",
@@ -24,7 +24,7 @@ const testimonials = [
   },
   {
     quote:
-      "De Zine doesn't just make things look good — they help you think through brand strategy too. A partner we can genuinely trust.",
+      "DeZine doesn't just make things look good — they help you think through brand strategy too. A partner we can genuinely trust.",
     name: "Attapon Kongkiat",
     role: "Owner, Solace Hotel",
     initials: "AK",

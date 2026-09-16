@@ -103,7 +103,7 @@ export default function Contact() {
           </h2>
           <p className="mt-6 max-w-md font-body text-base leading-relaxed text-muted">
             Ready to work with a studio that stays after launch day? Contact
-            De Zine Studio today to talk about your project.
+            DeZine Studio today to talk about your project.
           </p>
 
           <div className="mt-10 flex flex-col gap-3 font-body text-sm">

@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="noise-overlay" />
 
       <div className="container-x relative flex flex-col items-start gap-8 pb-20 pt-20 md:pb-28 md:pt-28">
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -28,7 +28,7 @@ export default function Hero() {
         >
           <span className="h-1.5 w-1.5 rounded-full bg-accent" />
           Currently taking on new projects · 2026
-        </motion.div>
+        </motion.div> */}
 
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
@@ -47,7 +47,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="max-w-xl font-body text-base text-muted md:text-lg"
         >
-          De Zine Studio is built for brands and marketing teams looking for a creative
+          DeZine Studio is built for brands and marketing teams looking for a creative
           partner who takes real ownership of results — not just a studio that delivers
           beautiful work and walks away.
         </motion.p>

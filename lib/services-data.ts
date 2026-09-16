@@ -26,12 +26,12 @@ export const servicesData: ServiceDetail[] = [
     title: "Creative Content",
     tint: "#d9ff5c",
     seoTitle:
-      "Creative Content Production Services | Motion Graphics, 3D & Video | De Zine Studio",
+      "Creative Content Production Services | Motion Graphics, 3D & Video | DeZine Studio",
     metaDesc:
       "Social-first creative content that performs — motion graphics, 3D animation, video editing, and event video built for how people actually scroll and watch today. Get a quote.",
     h1: "Creative Content That's Built to Perform, Not Just Look Good",
     intro:
-      "At De Zine Studio, creative content isn't decoration — it's the engine behind every campaign we build. We produce social-first video and motion content designed for the platforms your audience actually lives on, from Instagram Reels to YouTube pre-roll to in-venue event screens.",
+      "At DeZine Studio, creative content isn't decoration — it's the engine behind every campaign we build. We produce social-first video and motion content designed for the platforms your audience actually lives on, from Instagram Reels to YouTube pre-roll to in-venue event screens.",
     whatWeOffer: {
       heading:
         "Our creative content service covers the full range of moving-image formats a modern brand needs:",
@@ -81,7 +81,7 @@ export const servicesData: ServiceDetail[] = [
     },
     whoFor:
       "This service is built for brands, marketing teams, and agencies across the MENA region that need consistent, high-volume creative content — from FMCG and retail brands running always-on social campaigns to companies hosting product launches and corporate events who need same-day recap content.",
-    cta: "Ready to turn your brand story into content that stops the scroll? Contact De Zine Studio today for a creative content consultation and quote.",
+    cta: "Ready to turn your brand story into content that stops the scroll? Contact DeZine Studio today for a creative content consultation and quote.",
   },
   {
     slug: "online-ooh-advertising",
@@ -89,12 +89,12 @@ export const servicesData: ServiceDetail[] = [
     title: "Online & OOH Advertising",
     tint: "#8b7bff",
     seoTitle:
-      "Online & Out-of-Home (OOH) Advertising Design | De Zine Studio",
+      "Online & Out-of-Home (OOH) Advertising Design | DeZine Studio",
     metaDesc:
       "Consistent creative execution across digital and physical touchpoints — online ads, billboards, and OOH campaigns designed to work together, not in silos. Talk to our team.",
     h1: "One Creative Idea, Executed Everywhere Your Audience Sees It",
     intro:
-      "Your audience doesn't experience your brand in one place — they see it on their phone, on a billboard on the highway, and on a screen in a mall. De Zine Studio designs online and out-of-home (OOH) advertising as a single, connected creative execution so your message stays consistent no matter where it's seen.",
+      "Your audience doesn't experience your brand in one place — they see it on their phone, on a billboard on the highway, and on a screen in a mall. DeZine Studio designs online and out-of-home (OOH) advertising as a single, connected creative execution so your message stays consistent no matter where it's seen.",
     whatWeOffer: {
       heading:
         "What We Offer in online and OOH advertising combines strategic media planning with high-impact placements to help brands reach the right audience and maximize visibility.",
@@ -140,7 +140,7 @@ export const servicesData: ServiceDetail[] = [
     },
     whoFor:
       "Ideal for brands running integrated campaigns — retail chains, real estate developers, FMCG brands, and businesses launching in physical markets across the region who need their digital presence and physical advertising to tell the same story.",
-    cta: "Talk to De Zine Studio about building a connected online and OOH campaign that works across every screen and every street.",
+    cta: "Talk to DeZine Studio about building a connected online and OOH campaign that works across every screen and every street.",
   },
   {
     slug: "arabic-localization",
@@ -148,12 +148,12 @@ export const servicesData: ServiceDetail[] = [
     title: "Arabic Localization",
     tint: "#6cd4ff",
     seoTitle:
-      "Arabic Localization Services for Brands | Culture-First Adaptation | De Zine Studio",
+      "Arabic Localization Services for Brands | Culture-First Adaptation | DeZine Studio",
     metaDesc:
-      "Go beyond translation. De Zine Studio's Arabic-speaking specialists adapt language, tone, and cultural context so your brand connects authentically across the MENA market.",
+      "Go beyond translation. DeZine Studio's Arabic-speaking specialists adapt language, tone, and cultural context so your brand connects authentically across the MENA market.",
     h1: "Arabic Localization, Not Just Arabic Translation",
     intro:
-      "Speaking Arabic isn't the same as speaking to an Arabic-speaking audience. De Zine Studio's Arabic localization service is built on cultural adaptation — a network of native Arabic-speaking specialists who shape your content's language, tone, humor, and context so it lands the way it's meant to, in every dialect and market nuance across the region.",
+      "Speaking Arabic isn't the same as speaking to an Arabic-speaking audience. DeZine Studio's Arabic localization service is built on cultural adaptation — a network of native Arabic-speaking specialists who shape your content's language, tone, humor, and context so it lands the way it's meant to, in every dialect and market nuance across the region.",
     whatWeOffer: {
       heading:
         "What We Offer in Arabic localization adapts your brand's content and messaging to resonate naturally with Arabic-speaking audiences across different markets and cultures.",
@@ -199,7 +199,7 @@ export const servicesData: ServiceDetail[] = [
     },
     whoFor:
       "Built for international and regional brands entering or expanding across MENA markets, marketing teams without in-house Arabic-speaking creative resources, and companies that have been burned before by literal translations that missed the cultural mark.",
-    cta: "Reach your Arabic-speaking audience the right way — contact De Zine Studio to localize your next campaign.",
+    cta: "Reach your Arabic-speaking audience the right way — contact DeZine Studio to localize your next campaign.",
   },
   {
     slug: "ads-optimization",
@@ -207,12 +207,12 @@ export const servicesData: ServiceDetail[] = [
     title: "Ads Optimization",
     tint: "#ff9d6c",
     seoTitle:
-      "Ads Optimization & Performance Services | De Zine Studio",
+      "Ads Optimization & Performance Services | DeZine Studio",
     metaDesc:
-      "Turn ad spend into results. De Zine Studio tracks, tests, and optimizes creative performance continuously — so your content keeps earning its place in the budget.",
+      "Turn ad spend into results. DeZine Studio tracks, tests, and optimizes creative performance continuously — so your content keeps earning its place in the budget.",
     h1: "Creative That Earns Its Budget, Every Single Time",
     intro:
-      "Great creative that doesn't perform is expensive guesswork. De Zine Studio's ads optimization service treats every piece of content as a living asset — tracked, tested, and refined based on real performance data, not assumptions.",
+      "Great creative that doesn't perform is expensive guesswork. DeZine Studio's ads optimization service treats every piece of content as a living asset — tracked, tested, and refined based on real performance data, not assumptions.",
     whatWeOffer: {
       heading:
         "What We Offer in ads optimization uses data-driven insights and continuous refinement to improve campaign performance, reduce wasted spend, and maximize results.",
@@ -258,7 +258,7 @@ export const servicesData: ServiceDetail[] = [
     },
     whoFor:
       "Best suited for performance-driven marketing teams, e-commerce brands, and businesses running paid social or digital ad campaigns who want their creative budget tied directly to measurable outcomes.",
-    cta: "Stop guessing which creative works. Contact De Zine Studio to start optimizing your ad performance today.",
+    cta: "Stop guessing which creative works. Contact DeZine Studio to start optimizing your ad performance today.",
   },
   {
     slug: "creative-performance",
@@ -266,12 +266,12 @@ export const servicesData: ServiceDetail[] = [
     title: "Creative + Performance",
     tint: "#6cffb0",
     seoTitle:
-      "Creative & Performance Marketing Strategy | De Zine Studio",
+      "Creative & Performance Marketing Strategy | DeZine Studio",
     metaDesc:
-      "Every piece of content should have a business goal behind it. De Zine Studio connects creative thinking and performance strategy end-to-end for results that matter.",
+      "Every piece of content should have a business goal behind it. DeZine Studio connects creative thinking and performance strategy end-to-end for results that matter.",
     h1: "Where Creative Ideas and Business Goals Meet",
     intro:
-      "Creative and performance are usually run by two different teams speaking two different languages. De Zine Studio connects them end-to-end — every concept, script, and design decision is made with a clear business objective in mind, and every performance insight feeds back into the next round of creative.",
+      "Creative and performance are usually run by two different teams speaking two different languages. DeZine Studio connects them end-to-end — every concept, script, and design decision is made with a clear business objective in mind, and every performance insight feeds back into the next round of creative.",
     whatWeOffer: {
       heading:
         "What We Offer in creative and performance brings compelling ideas and measurable results together to create campaigns that capture attention and drive action.",
@@ -317,7 +317,7 @@ export const servicesData: ServiceDetail[] = [
     },
     whoFor:
       "Ideal for growth-stage brands, marketing leaders, and founders who are tired of creative agencies and performance agencies blaming each other for underwhelming campaign results — and want one accountable partner instead.",
-    cta: "Bring creative and performance under one roof. Contact De Zine Studio to align your content with your business goals.",
+    cta: "Bring creative and performance under one roof. Contact DeZine Studio to align your content with your business goals.",
   },
   {
     slug: "website-design",
@@ -325,12 +325,12 @@ export const servicesData: ServiceDetail[] = [
     title: "Website Design & Development",
     tint: "#ff6ca0",
     seoTitle:
-      "Website Design & Development Services | Brand Websites & Landing Pages | De Zine Studio",
+      "Website Design & Development Services | Brand Websites & Landing Pages | DeZine Studio",
     metaDesc:
-      "Brand websites and landing pages built with the same creative and localization standard as your content. Fast, on-brand, conversion-focused web design by De Zine Studio.",
+      "Brand websites and landing pages built with the same creative and localization standard as your content. Fast, on-brand, conversion-focused web design by DeZine Studio.",
     h1: "Websites Built to the Same Standard as Your Best Content",
     intro:
-      "Your website is often the first place a customer forms an opinion of your brand — and too often, it's the weakest link in an otherwise strong creative strategy. De Zine Studio designs and develops brand websites and landing pages that carry the same creative quality, cultural localization, and performance thinking as everything else we produce.",
+      "Your website is often the first place a customer forms an opinion of your brand — and too often, it's the weakest link in an otherwise strong creative strategy. DeZine Studio designs and develops brand websites and landing pages that carry the same creative quality, cultural localization, and performance thinking as everything else we produce.",
     whatWeOffer: {
       heading:
         "What We Offer in website design and development creates modern, user-focused digital experiences that strengthen your brand and turn visitors into customers.",
@@ -376,7 +376,7 @@ export const servicesData: ServiceDetail[] = [
     },
     whoFor:
       "Best for brands launching new websites or rebrands, marketing teams running paid campaigns that need dedicated landing pages, and companies expanding into MENA markets who need a web presence that speaks the language — literally and culturally.",
-    cta: "Your website should work as hard as your content. Contact De Zine Studio to start your website design project.",
+    cta: "Your website should work as hard as your content. Contact DeZine Studio to start your website design project.",
   },
   {
     slug: "static-post-content",
@@ -384,12 +384,12 @@ export const servicesData: ServiceDetail[] = [
     title: "Static Post Content",
     tint: "#ffc46c",
     seoTitle:
-      "Static Post & Social Content Design Services | De Zine Studio",
+      "Static Post & Social Content Design Services | DeZine Studio",
     metaDesc:
-      "Strong static content is still one of the highest-performing social formats. De Zine Studio designs static posts built for engagement, brand consistency, and scroll-stopping impact.",
+      "Strong static content is still one of the highest-performing social formats. DeZine Studio designs static posts built for engagement, brand consistency, and scroll-stopping impact.",
     h1: "Static Content, Designed to Do More Than Fill a Feed",
     intro:
-      "Static posts remain one of the most consistent, cost-effective ways to stay visible and build brand recognition on social media. De Zine Studio treats static content design as its own discipline — not an afterthought to video — with dedicated creative direction for every post.",
+      "Static posts remain one of the most consistent, cost-effective ways to stay visible and build brand recognition on social media. DeZine Studio treats static content design as its own discipline — not an afterthought to video — with dedicated creative direction for every post.",
     whatWeOffer: {
       heading:
         "What We Offer in static post content delivers engaging, on-brand visuals designed to communicate your message clearly and maintain a consistent social media presence.",
@@ -435,7 +435,7 @@ export const servicesData: ServiceDetail[] = [
     },
     whoFor:
       "Great for brands that need consistent day-to-day social presence, businesses running frequent promotions or announcements, and marketing teams looking to balance video-heavy content plans with high-quality static formats.",
-    cta: "Keep your feed strong between campaigns. Contact De Zine Studio to design your static content strategy.",
+    cta: "Keep your feed strong between campaigns. Contact DeZine Studio to design your static content strategy.",
   },
 ];
 
