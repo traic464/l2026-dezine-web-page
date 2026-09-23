@@ -4,7 +4,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Reveal from "./Reveal";
 
-const STUDIO_EMAIL = "hello@dezine.studio";
+const STUDIO_EMAIL = "info.dezineth@gmail.com";
 
 type Fields = {
   name: string;
@@ -25,6 +25,12 @@ function validate(values: Fields): Errors {
   } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email.trim())) {
     errors.email = "That email doesn't look quite right";
   }
+  let phone = values.phone.trim()
+  if (!phone) {
+  errors.phone = "Please tell us your phone";
+} else if (!/^0\d{2}-?\d{3}-?\d{4}$/.test(phone)) {
+  errors.phone = "Please enter a valid 10-digit phone number";
+}
   if (!values.project.trim()) errors.project = "A sentence or two is plenty";
   return errors;
 }
@@ -49,12 +55,12 @@ export default function Contact() {
   const [status, setStatus] = useState<Status>("idle");
   const [sentName, setSentName] = useState("");
 
-  const update = (key: keyof Fields) => (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    setValues((v) => ({ ...v, [key]: e.target.value }));
-    setErrors((prev) => ({ ...prev, [key]: undefined }));
-  };
+  const update =
+    (key: keyof Fields) =>
+    (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+      setValues((v) => ({ ...v, [key]: e.target.value }));
+      setErrors((prev) => ({ ...prev, [key]: undefined }));
+    };
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -114,10 +120,39 @@ export default function Contact() {
               <span aria-hidden>✉️</span> {STUDIO_EMAIL}
             </a>
             <a
-              href="tel:+66000000000"
+              href="tel:+66945608923"
               className="inline-flex w-fit items-center gap-3 text-paper transition-colors hover:text-accent"
             >
-              <span aria-hidden>📞</span> 02-000-0000
+              <span aria-hidden>📞</span> 094-560-8923
+            </a>
+            <a
+              href="https://www.instagram.com/dezine.th?stkn=MWQ0NWl3enczc3BoNw%3D%3D&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex w-fit items-center gap-3 text-paper transition-colors hover:text-accent"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden="true"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle
+                  cx="17.5"
+                  cy="6.5"
+                  r="1"
+                  fill="currentColor"
+                  stroke="none"
+                />
+              </svg>
+              <span>dezine.th</span>
             </a>
           </div>
         </Reveal>
@@ -213,9 +248,9 @@ export default function Contact() {
                     transition={{ duration: 0.45, delay: 0.58 }}
                     className="mt-4 max-w-sm font-body text-base leading-relaxed text-muted"
                   >
-                    Thanks{sentName ? `, ${sentName}` : ""} — we&apos;ve got your
-                    details and we&apos;ll be in touch within a couple of working
-                    days.
+                    Thanks{sentName ? `, ${sentName}` : ""} — we&apos;ve got
+                    your details and we&apos;ll be in touch within a couple of
+                    working days.
                   </motion.p>
 
                   <motion.button
@@ -302,7 +337,7 @@ export default function Contact() {
                         htmlFor="phone"
                         className="font-body text-xs uppercase tracking-widest text-muted"
                       >
-                        Phone <span className="normal-case">(optional)</span>
+                        Phone
                       </label>
                       <input
                         id="phone"
@@ -312,8 +347,15 @@ export default function Contact() {
                         placeholder="xxx-xxx-xxxx"
                         value={values.phone}
                         onChange={update("phone")}
-                        className={`mt-2 ${fieldBase}`}
+                        className={`mt-2 ${fieldBase} ${
+                          errors.phone ? "border-red-400/70" : ""
+                        }`}
                       />
+                      {errors.phone && (
+                        <p className="mt-2 font-body text-xs text-red-400">
+                          {errors.phone}
+                        </p>
+                      )}
                     </div>
                   </div>
 

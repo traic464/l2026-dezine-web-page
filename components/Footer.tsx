@@ -45,8 +45,8 @@ export default function Footer() {
               Contact
             </h4>
             <ul className="mt-5 flex flex-col gap-3 font-body text-sm text-paper/80">
-              <li>hello@dezine.studio</li>
-              <li>02-000-0000</li>
+              <li>info.dezineth@gmail.com</li>
+              <li>094-560-8923</li>
               <li>Bangkok, Thailand</li>
             </ul>
           </div>
