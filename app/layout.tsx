@@ -20,12 +20,26 @@ export const metadata: Metadata = {
   title: "DeZine Studio — Creative Content, Advertising & Performance",
   description:
     "DeZine Studio is built for brands and marketing teams looking for a creative partner who takes real ownership of results. Creative content, online & OOH advertising, ads optimization, website design, and Arabic localization.",
-  keywords: ["DeZine Studio", "Creative Content", "Motion Graphics", "3D Animation", "OOH Advertising", "Ads Optimization", "Arabic Localization", "Website Design", "Static Post Content", "MENA"],
+  keywords: [
+    "DeZine Studio",
+    "Creative Content",
+    "Motion Graphics",
+    "3D Animation",
+    "OOH Advertising",
+    "Ads Optimization",
+    "Arabic Localization",
+    "Website Design",
+    "Static Post Content",
+    "MENA",
+  ],
   openGraph: {
     title: "DeZine Studio — Creative Content, Advertising & Performance",
     description:
       "A creative partner who takes real ownership of results — creative content, advertising, ads optimization, and more.",
     type: "website",
+  },
+  icons: {
+    icon: "/logo/DE_ZINE_favicon.png",
   },
 };
 
